@@ -40,7 +40,7 @@ function removeSpanColor(event) {
 const allKeys = document.querySelectorAll('.key')
 const allKbds = document.querySelectorAll('.kbd')
 const allSpans = document.querySelectorAll('.sound')
-window.addEventListener('keydown', playAudio)
 allKeys.forEach(key => key.addEventListener('transitionend', removeTransform))
 allKbds.forEach(kbd => kbd.addEventListener('transitionend', removeKbdColor ))
 allSpans.forEach(span => span.addEventListener('transitionend', removeSpanColor ))
+window.addEventListener('keydown', playAudio)

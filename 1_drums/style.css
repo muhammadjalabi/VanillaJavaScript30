@@ -1,0 +1,49 @@
+.keys{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.key{
+  border: 5px solid goldenrod;
+  border-radius: 4px;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .09s;
+  width: 100px;
+  text-align: center;
+  color: yellow;
+  background: rgba(56, 53, 53, 0.8);
+  text-shadow: 0 0 4px rgb(0, 0, 0);
+}
+
+
+.playing{
+  transform: scale(1.01);
+  border-color: rgb(255, 235, 9);
+}
+
+
+kbd {
+  display: block;
+  font-size: 48px;
+  color: palegreen;
+  transition: all .09s;
+}
+
+.pressed {
+  color: white;
+}
+
+.sound{
+  color: white;
+  transition: all .09s;
+  font-family: 'Courier New', Courier, monospace;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.focused{
+  color: rgb(0, 255, 191);
+}

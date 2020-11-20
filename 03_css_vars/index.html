@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Vars</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Updating CSS variables with <span class="hl">JS</span></h2>
+  <div class="controls">
+    <label for="spacing">Spacing: </label>
+    <input type="range" name="spacing" id="" min="10" max="200" value="10" data-sizing="px">
+    <label for="blur">Blur: </label>
+    <input type="range" name="blur" id="" min="0" max="25" value="10" data-sizing="px">
+   
+    <label for="base">Color: </label>
+    <input type="color" name="base" value="#ffc600" id="" />
+    
+  </div>
+  <img src="https://i.picsum.photos/id/1038/800/600.jpg?hmac=iqbZwDLnOoLv9w6vVxx5-oFWe5NWXY90yFu5iK1kAag" alt="Picture that will be manipulated by controls" />
+  <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
